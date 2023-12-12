@@ -24,7 +24,6 @@ def part_1(data_arg):
 
 def part_2(data_arg):
     """part 2"""
-    total_cards = 0
     card_count = [1] * len(data_arg)
     for i, line in enumerate(data_arg):
         winners, hand = get_winners_and_hand(line)
